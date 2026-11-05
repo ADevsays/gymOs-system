@@ -95,7 +95,7 @@ namespace GymOS
             serverInfo.EnvironmentVariables["GYMOS_SECRET_KEY"] = "b3aeda29734a19399f938b9512ec4bac58959595f37d94c1d6762774c98f891b";
             serverInfo.EnvironmentVariables["NITRO_PORT"] = serverPort.ToString();
             serverInfo.EnvironmentVariables["NITRO_HOST"] = "0.0.0.0";
-            serverInfo.EnvironmentVariables["GYMOS_APP_VERSION"] = "1.0.16";
+            serverInfo.EnvironmentVariables["GYMOS_APP_VERSION"] = "1.0.17";
 
             try
             {

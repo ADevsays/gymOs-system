@@ -2,7 +2,7 @@
 ; Compile with Inno Setup 6+ (https://jrsoftware.org/isinfo.php)
 
 #define MyAppName "GymOS"
-#define MyAppVersion "1.0.16"
+#define MyAppVersion "1.0.17"
 #define MyAppPublisher "Gym AGOD"
 #define MyAppExeName "GymOS.exe"
 
@@ -15,7 +15,7 @@ DefaultDirName={autopf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
 OutputDir=output
-OutputBaseFilename=GymOS-Setup 1.0.16
+OutputBaseFilename=GymOS-Setup 1.0.17
 SetupIconFile=assets\icon.ico
 Compression=lzma2/ultra64
 SolidCompression=yes
@@ -23,11 +23,11 @@ WizardStyle=modern
 PrivilegesRequired=admin
 ArchitecturesAllowed=x64compatible
 ArchitecturesInstallIn64BitMode=x64compatible
-VersionInfoVersion=1.0.16.0
+VersionInfoVersion=1.0.17.0
 VersionInfoCompany=Gym AGOD
 VersionInfoDescription=Instalador de GymOS
 VersionInfoProductName=GymOS
-VersionInfoProductVersion=1.0.16.0
+VersionInfoProductVersion=1.0.17.0
 VersionInfoCopyright=Copyright (C) 2026 Gym AGOD
 
 [Languages]

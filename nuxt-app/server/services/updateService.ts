@@ -6,7 +6,7 @@ import { spawn } from 'child_process';
 import { getUpdatesDir } from '../utils/paths';
 import { getRelayUrl } from '../utils/config';
 
-export const CURRENT_APP_VERSION = process.env.GYMOS_APP_VERSION || '1.0.16';
+export const CURRENT_APP_VERSION = process.env.GYMOS_APP_VERSION || '1.0.17';
 
 export interface VersionManifest {
   version: string;

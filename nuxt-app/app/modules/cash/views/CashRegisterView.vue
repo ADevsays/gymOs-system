@@ -126,7 +126,7 @@
               v-model="customDateRange.startDate" 
               type="date" 
               @change="handleCustomDateChange"
-              class="bg-surface-2 border border-border text-text font-mono text-xs rounded-lg px-2.5 py-1.5 outline-none focus:border-accent cursor-pointer"
+              class="bg-surface-2 border border-border text-text font-mono text-xs rounded-lg px-2.5 py-1.5 outline-none focus:border-accent cursor-pointer [&::-webkit-calendar-picker-indicator]:invert [&::-webkit-calendar-picker-indicator]:opacity-80"
             />
           </div>
           <div class="flex items-center gap-2">
@@ -135,7 +135,7 @@
               v-model="customDateRange.endDate" 
               type="date" 
               @change="handleCustomDateChange"
-              class="bg-surface-2 border border-border text-text font-mono text-xs rounded-lg px-2.5 py-1.5 outline-none focus:border-accent cursor-pointer"
+              class="bg-surface-2 border border-border text-text font-mono text-xs rounded-lg px-2.5 py-1.5 outline-none focus:border-accent cursor-pointer [&::-webkit-calendar-picker-indicator]:invert [&::-webkit-calendar-picker-indicator]:opacity-80"
             />
           </div>
           <div class="flex items-center gap-1.5 ml-auto">

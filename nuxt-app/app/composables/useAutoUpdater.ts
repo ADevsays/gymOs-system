@@ -10,8 +10,8 @@ export interface UpdateInfo {
 }
 
 const updateAvailable = ref(false);
-const currentVersion = ref('1.0.16');
-const latestVersion = ref('1.0.16');
+const currentVersion = ref('1.0.17');
+const latestVersion = ref('1.0.17');
 const downloadUrl = ref('');
 const releaseNotes = ref('');
 const releaseDate = ref('');
