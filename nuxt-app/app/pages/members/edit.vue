@@ -1,0 +1,13 @@
+<template>
+  <div class="flex-1 w-full overflow-hidden flex flex-col px-6 lg:px-8 py-5 lg:py-6">
+    <EditView />
+  </div>
+</template>
+
+<script setup lang="ts">
+import EditView from '~/modules/members/views/EditView.vue';
+
+definePageMeta({
+  layout: 'default'
+});
+</script>
